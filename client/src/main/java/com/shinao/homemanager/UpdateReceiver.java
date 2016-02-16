@@ -26,8 +26,8 @@ public class UpdateReceiver extends BroadcastReceiver {
     private static final String BLUETOOTH_DEVICE_NAME = "LordOfTheLock";
     private static final byte[] TOKEN_REQUESTOR = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX".getBytes();
     private static final byte[] TOKEN_VALIDATOR = "XXXXXXXXXXXXXXXX".getBytes();
-    private static final String URL_ENABLE_CAMERA_ALARM = "http://XXXXX.ddns.net:5225/api/1/4815162342/enable";
-    private static final String DISABLE_CAMERA_ALARM = "http://XXXXX.ddns.net:5225/api/1/4815162342/disable";
+    private static final String URL_ENABLE_CAMERA_ALARM = "http://XXXXX.ddns.net:5225/api/1/XXXXX/enable";
+    private static final String DISABLE_CAMERA_ALARM = "http://XXXXX.ddns.net:5225/api/1/XXXXX/disable";
 
     @Override
     public void onReceive(Context context, Intent intent) {
