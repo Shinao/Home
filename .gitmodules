@@ -1,0 +1,3 @@
+[submodule "client/libMD5"]
+	path = client/libMD5
+	url = git@github.com:tzikis/ArduinoMD5.git
