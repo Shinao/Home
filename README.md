@@ -23,3 +23,10 @@ The Android client is a simple widget used to control the door and camera, the a
 - Arduino UNO
 - Transformer 9V
 <p align="center"><img src="docs/pretty_schematic.png"/></p>
+
+
+## Notes
+
+The bluetooth communication is "secured" by a system of token, AES being hard to implement on both Arduino and Android without rewriting a few things I've taken a much simpler solution with tokens and MD5 : it's easy to use and has a good enough security.
+
+As for motionEye, a hotfix has been made to allow external call to use a custom API to toggle the alarm system of the camera, in the future it should be taken off since it was in the TODO list of the maintainer.
